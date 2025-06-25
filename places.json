@@ -1,6 +1,93 @@
-[
 {
-    "name": "bb beach",
-    "types": ["br", "resteu"]
+  "city": "Lomé",
+  "lastUpdated": "2025-06-25T10:00:00Z",
+  "places": [
+    {
+      "id": "place_001",
+      "name": "Plage de Lomé",
+      "type": "plage",
+      "description": "Un lieu calme pour se détendre au bord de l'océan.",
+      "location": {
+        "latitude": 6.1296,
+        "longitude": 1.2154,
+        "address": "Route de la plage, Lomé"
+      },
+      "emotions": [
+        {
+          "type": "calme",
+          "intensity": 0.9,
+          "userVotes": 123
+        },
+        {
+          "type": "joie",
+          "intensity": 0.7,
+          "userVotes": 87
+        }
+      ],
+      "tags": ["mer", "relaxation", "plein air"],
+      "media": {
+        "images": [
+          "https://example.com/images/plage1.jpg"
+        ],
+        "videos": []
+      },
+      "hours": {
+        "open": "06:00",
+        "close": "20:00"
+      },
+      "rating": {
+        "average": 4.5,
+        "totalVotes": 154
+      },
+      "access": {
+        "public": true,
+        "entryFee": 0
+      },
+      "metadata": {
+        "createdBy": "admin",
+        "createdAt": "2024-11-10T14:30:00Z"
+      }
+    },
+
+    {
+      "id": "place_002",
+      "name": "Café Lumière",
+      "type": "café",
+      "description": "Un petit café cosy parfait pour lire ou travailler.",
+      "location": {
+        "latitude": 6.1730,
+        "longitude": 1.2168,
+        "address": "Avenue Jean Paul II, Lomé"
+      },
+      "emotions": [
+        {
+          "type": "inspiration",
+          "intensity": 0.85,
+          "userVotes": 45
+        },
+        {
+          "type": "réconfort",
+          "intensity": 0.75,
+          "userVotes": 30
+        }
+      ],
+      "tags": ["wifi", "lecture", "ambiance calme"],
+      "hours": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "rating": {
+        "average": 4.2,
+        "totalVotes": 93
+      },
+      "access": {
+        "public": true,
+        "entryFee": 0
+      },
+      "metadata": {
+        "createdBy": "user123",
+        "createdAt": "2025-01-05T11:00:00Z"
+      }
+    }
+  ]
 }
-]
