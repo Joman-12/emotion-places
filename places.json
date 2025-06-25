@@ -28,7 +28,7 @@
       "tags": ["mer", "relaxation", "plein air"],
       "media": {
         "images": [
-          "https://example.com/images/plage1.jpg"
+          { "link": "https://example.com/images/plage1.jpg", "titre": "Menu" }
         ],
         "videos": []
       },
@@ -43,45 +43,44 @@
       "keywords": ["café", "togo", "détente"]
     },
 
-    {
-      "id": "place_002",
-      "name": "Café Lumière",
-      "type": "café",
-      "description": "Un petit café cosy parfait pour lire ou travailler.",
+   {
+      "id": "place_001",
+      "name": "Plage de Lomé",
+      "type": "plage",
+      "description": "Un lieu calme pour se détendre au bord de l'océan.",
       "location": {
-        "latitude": 6.1730,
-        "longitude": 1.2168,
-        "address": "Avenue Jean Paul II, Lomé"
+        "latitude": 6.1296,
+        "longitude": 1.2154,
+        "address": "Route de la plage, Lomé"
       },
       "emotions": [
         {
-          "type": "inspiration",
-          "intensity": 0.85,
-          "userVotes": 45
+          "type": "calme",
+          "intensity": 0.9,
+          "userVotes": 123
         },
         {
-          "type": "réconfort",
-          "intensity": 0.75,
-          "userVotes": 30
+          "type": "joie",
+          "intensity": 0.7,
+          "userVotes": 87
         }
       ],
-      "tags": ["wifi", "lecture", "ambiance calme"],
+      "tags": ["mer", "relaxation", "plein air"],
+      "media": {
+        "images": [
+          { "link": "https://example.com/images/plage1.jpg", "titre": "Menu" }
+        ],
+        "videos": []
+      },
       "hours": {
-        "open": "08:00",
-        "close": "22:00"
+        "open": "06:00",
+        "close": "20:00"
       },
       "rating": {
-        "average": 4.2,
-        "totalVotes": 93
+        "average": 4.5,
+        "totalVotes": 154
       },
-      "access": {
-        "public": true,
-        "entryFee": 0
-      },
-      "metadata": {
-        "createdBy": "user123",
-        "createdAt": "2025-01-05T11:00:00Z"
-      }
+      "keywords": ["café", "togo", "détente"]
     }
   ]
 }
