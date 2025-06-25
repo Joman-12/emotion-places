@@ -1,0 +1,96 @@
+{
+  "records": [
+    {
+      "city": "Lomé",
+      "country": "Togo",
+      "lastUpdated": "2025-06-25T10:00:00Z",
+      "places": [
+        {
+          "id": "place_001",
+          "name": "Plage de Lomé",
+          "type": "plage",
+          "description": "Un lieu calme pour se détendre au bord de l'océan.",
+          "location": {
+            "latitude": 6.1296,
+            "longitude": 1.2154,
+            "address": "Route de la plage, Lomé"
+          },
+          "emotions": [
+            {
+              "type": "calme",
+              "intensity": 0.9,
+              "userVotes": 123
+            },
+            {
+              "type": "joie",
+              "intensity": 0.7,
+              "userVotes": 87
+            }
+          ],
+          "tags": ["mer", "relaxation", "plein air"],
+          "media": {
+            "images": [
+              {
+                "link": "https://example.com/images/plage1.jpg",
+                "titre": "Menu"
+              }
+            ],
+            "videos": []
+          },
+          "hours": {
+            "open": "06:00",
+            "close": "20:00"
+          },
+          "rating": {
+            "average": 4.5,
+            "totalVotes": 154
+          },
+          "keywords": ["café", "togo", "détente"]
+        },
+
+        {
+          "id": "place_001",
+          "name": "Plage de Lomé",
+          "type": "plage",
+          "description": "Un lieu calme pour se détendre au bord de l'océan.",
+          "location": {
+            "latitude": 6.1296,
+            "longitude": 1.2154,
+            "address": "Route de la plage, Lomé"
+          },
+          "emotions": [
+            {
+              "type": "calme",
+              "intensity": 0.9,
+              "userVotes": 123
+            },
+            {
+              "type": "joie",
+              "intensity": 0.7,
+              "userVotes": 87
+            }
+          ],
+          "tags": ["mer", "relaxation", "plein air"],
+          "media": {
+            "images": [
+              {
+                "link": "https://example.com/images/plage1.jpg",
+                "titre": "Menu"
+              }
+            ],
+            "videos": []
+          },
+          "hours": {
+            "open": "06:00",
+            "close": "20:00"
+          },
+          "rating": {
+            "average": 4.5,
+            "totalVotes": 154
+          },
+          "keywords": ["café", "togo", "détente"]
+        }
+      ]
+    }
+  ]
+}
